@@ -37,7 +37,6 @@ let result1 = lowPoints
               |> List.sumBy (fun (x, y) -> cave.[y, x] + 1)
 
 // Part 2
-
 let basinSize cave lowPoint  =
     let rec basinSize (cave : int[,]) visited queue acc =
         match queue with
