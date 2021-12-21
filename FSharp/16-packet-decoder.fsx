@@ -105,6 +105,3 @@ let rec calculateValue packet =
         | _ -> failwith "Invalid typeId"
 
 let result2 = packet |> calculateValue
-
-//2457453848
-//1631421724
